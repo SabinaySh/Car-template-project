@@ -1,0 +1,196 @@
+// Navbar Start
+.nav {
+  z-index: 9999;
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .left-side {
+    display: flex;
+    i {
+      color: crimson;
+      position: relative;
+      font-size: 20px;
+      color: $secondary-color;
+      &::after {
+        content: "";
+        position: absolute;
+        background-color: #151515;
+        width: 8px;
+        height: 8px;
+        top: 18px;
+        left: 2px;
+        border-radius: 50%;
+      }
+    }
+    p {
+      font-size: 20px;
+      position: relative;
+      color: $secondary-color;
+      &::after {
+        content: "";
+        position: absolute;
+        top: 4px;
+        left: -11px;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 8px 8px 0;
+        border-color: transparent $secondary-color transparent transparent;
+      }
+      b {
+        font-weight: 700;
+      }
+    }
+  }
+  .nav-list {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin-left: -15%;
+    li {
+      list-style: none;
+      margin-right: 20px;
+      a {
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 700;
+        color: $secondary-color;
+      }
+      i {
+        font-weight: 400;
+        font-size: 24px;
+        margin-left: -18px;
+        color: $secondary-color;
+      }
+    }
+  }
+  .right-side {
+    a {
+      background-color: $primary-color;
+      padding: 14px 24px;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      position: relative;
+      &::after {
+        content: "";
+        position: absolute;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        background-color: #fde5e6;
+        top: 6px;
+        left: -60px;
+      }
+    }
+  }
+}
+// Navbar End
+
+// Section Model-Sv Start
+#model-sv {
+  .model {
+    background-image: linear-gradient(to right, #000000, #fff);
+    position: relative;
+    top: -92px;
+    left: 0;
+    .qutu {
+      padding: 90px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      a {
+        background-color: $primary-color;
+        padding: 14px 24px;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        text-decoration: none;
+      }
+      .content-btn {
+        padding-top: 70px;
+        h1 {
+          color: $secondary-color;
+          font-size: 62px;
+          font-weight: 700;
+          padding: 20px 0;
+        }
+        h5 {
+          color: $secondary-color;
+          font-size: 24px;
+          font-weight: 400;
+        }
+        .list-model {
+          display: flex;
+          color: $secondary-color;
+          list-style: none;
+          padding: 30px 0 60px 0;
+          li {
+            margin-right: 50px;
+            font-size: 16px;
+            font-weight: 700;
+            p {
+              color: $primary-color;
+              padding-top: 10px;
+            }
+          }
+        }
+      }
+      .dots {
+        .dot {
+          width: 10px;
+          height: 10px;
+          background-color: $primary-color;
+          border-radius: 50%;
+          position: relative;
+          &::after {
+            content: "";
+            position: absolute;
+            bottom: 25px;
+            left: 0;
+            width: 10px;
+            height: 10px;
+            background-color: $secondary-color;
+            border-radius: 50%;
+          }
+
+          &::before {
+            content: "";
+            position: absolute;
+            top: 25px;
+            left: 0;
+            width: 10px;
+            height: 10px;
+            background-color: $secondary-color;
+            border-radius: 50%;
+          }
+        }
+      }
+    }
+  }
+  .select-search {
+    margin-top: -50px;
+    padding: 0 50px 50px 50px;
+    background-color: $secondary-color;
+    display: flex;
+    .submit-btn {
+        background-color: #FA3C45;
+        padding: 6px 24px 6px 24px;
+        color: white;
+        border: none;
+        border-radius: 8px;
+    }
+    .select-form {
+      display: flex;
+      .form-select {
+        width: 420px;
+        height: 35px;
+        margin-right: 30px;
+      }
+    }
+  }
+}
+// Section Model-Sv End
+
+

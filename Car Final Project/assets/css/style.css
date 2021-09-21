@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;400;700;800;900&display=swap");
+.nav {
+  z-index: 9999;
+  padding-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav .left-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav .left-side i {
+  color: crimson;
+  position: relative;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+.nav .left-side i::after {
+  content: "";
+  position: absolute;
+  background-color: #151515;
+  width: 8px;
+  height: 8px;
+  top: 18px;
+  left: 2px;
+  border-radius: 50%;
+}
+
+.nav .left-side p {
+  font-size: 20px;
+  position: relative;
+  color: #FFFFFF;
+}
+
+.nav .left-side p::after {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: -11px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 8px 8px 0;
+  border-color: transparent #FFFFFF transparent transparent;
+}
+
+.nav .left-side p b {
+  font-weight: 700;
+}
+
+.nav .nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0;
+  margin-left: -15%;
+}
+
+.nav .nav-list li {
+  list-style: none;
+  margin-right: 20px;
+}
+
+.nav .nav-list li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.nav .nav-list li i {
+  font-weight: 400;
+  font-size: 24px;
+  margin-left: -18px;
+  color: #FFFFFF;
+}
+
+.nav .right-side a {
+  background-color: #FA3C45;
+  padding: 14px 24px;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  position: relative;
+}
+
+.nav .right-side a::after {
+  content: "";
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #fde5e6;
+  top: 6px;
+  left: -60px;
+}
+
+#model-sv .model {
+  background-image: -webkit-gradient(linear, left top, right top, from(#000000), to(#fff));
+  background-image: linear-gradient(to right, #000000, #fff);
+  position: relative;
+  top: -92px;
+  left: 0;
+}
+
+#model-sv .model .qutu {
+  padding: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#model-sv .model .qutu a {
+  background-color: #FA3C45;
+  padding: 14px 24px;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+#model-sv .model .qutu .content-btn {
+  padding-top: 70px;
+}
+
+#model-sv .model .qutu .content-btn h1 {
+  color: #FFFFFF;
+  font-size: 62px;
+  font-weight: 700;
+  padding: 20px 0;
+}
+
+#model-sv .model .qutu .content-btn h5 {
+  color: #FFFFFF;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+#model-sv .model .qutu .content-btn .list-model {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #FFFFFF;
+  list-style: none;
+  padding: 30px 0 60px 0;
+}
+
+#model-sv .model .qutu .content-btn .list-model li {
+  margin-right: 50px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+#model-sv .model .qutu .content-btn .list-model li p {
+  color: #FA3C45;
+  padding-top: 10px;
+}
+
+#model-sv .model .qutu .dots .dot {
+  width: 10px;
+  height: 10px;
+  background-color: #FA3C45;
+  border-radius: 50%;
+  position: relative;
+}
+
+#model-sv .model .qutu .dots .dot::after {
+  content: "";
+  position: absolute;
+  bottom: 25px;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+}
+
+#model-sv .model .qutu .dots .dot::before {
+  content: "";
+  position: absolute;
+  top: 25px;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+}
+
+#model-sv .select-search {
+  margin-top: -50px;
+  padding: 0 50px 50px 50px;
+  background-color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#model-sv .select-search .submit-btn {
+  background-color: #FA3C45;
+  padding: 6px 24px 6px 24px;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+
+#model-sv .select-search .select-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#model-sv .select-search .select-form .form-select {
+  width: 420px;
+  height: 35px;
+  margin-right: 30px;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  overflow-x: hidden;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
