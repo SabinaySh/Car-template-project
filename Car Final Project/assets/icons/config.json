@@ -29,6 +29,12 @@
       "css": "right-open",
       "code": 59395,
       "src": "entypo"
+    },
+    {
+      "uid": "56b0141d7bbb0717fc6246ea145bc0bd",
+      "css": "ok-circled2",
+      "code": 59397,
+      "src": "elusive"
     }
   ]
 }
